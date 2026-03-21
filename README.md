@@ -1,72 +1,87 @@
-# healthcare-operations-dashboard
+# Healthcare Appointment Operations Dashboard
 
 ## Overview
-This project analyzes healthcare operations data to identify trends in patient volume, collections, appointment outcomes, and operational performance. The goal was to create a dashboard that gives leadership a clear view of key performance indicators and areas for improvement.
+This project analyzes healthcare appointment data to identify patterns in patient attendance, no-shows, scheduling behavior, and operational efficiency. The goal was to create a dashboard that helps healthcare teams better understand missed appointments and use data to improve scheduling workflows.
 
 ## Business Problem
-Healthcare teams need visibility into operational performance in order to improve efficiency, manage collections, and identify bottlenecks. This project was designed to answer questions such as:
-- How is patient volume trending over time?
-- Which providers or locations are performing best?
-- Are collections keeping pace with production?
-- Where are there gaps in operational performance?
+Patient no-shows create operational challenges for healthcare organizations by disrupting schedules, reducing provider productivity, limiting effective capacity, and making it harder to allocate resources efficiently. This project was designed to help answer questions such as:
+- What is the overall no-show rate?
+- Are certain patient groups more likely to miss appointments?
+- Does receiving an SMS reminder appear to affect attendance?
+- Are there patterns by age, gender, neighborhood, or day of the week?
+- What operational insights can be used to improve appointment attendance?
 
 ## Objectives
-- Track key healthcare operations KPIs
-- Identify performance trends and inefficiencies
-- Create a dashboard that supports quick decision-making
-- Provide recommendations based on the data
+- Analyze appointment attendance and no-show behavior
+- Identify trends across patient demographics and scheduling variables
+- Build a dashboard to visualize key performance indicators
+- Highlight operational patterns that may support better scheduling decisions
+- Provide recommendations to reduce missed appointments
 
 ## Tools Used
 - Excel
+- Pivot Tables
+- Pivot Charts
+- Formulas
 - Tableau
-- Google Sheets
 
 ## Dataset
-The dataset used for this project includes healthcare operational metrics such as:
-- appointment volume
-- completed visits
-- cancellations
-- no-shows
-- production
-- collections
-- provider performance
+The dataset used for this project is the **Medical Appointment No Shows** dataset from Kaggle. It contains appointment-level healthcare data and includes fields such as:
+- PatientId
+- AppointmentID
+- Gender
+- ScheduledDay
+- AppointmentDay
+- Age
+- Neighbourhood
+- Scholarship
+- Hipertension
+- Diabetes
+- Alcoholism
+- Handcap
+- SMS_received
+- No-show
 
-Note: This project uses sample data created for portfolio purposes.
+Note: This dataset reflects medical appointment records and was used for portfolio analysis purposes.
 
 ## Process
-1. Cleaned and organized the raw data
-2. Standardized fields for reporting
-3. Calculated key KPIs
-4. Analyzed trends across time, provider, and location
-5. Built a dashboard to visualize findings
-6. Summarized recommendations for stakeholders
+1. Cleaned and reviewed the raw dataset
+2. Standardized field names and formatted date columns
+3. Created new fields for analysis, including appointment lead time and weekday trends
+4. Calculated KPIs related to attendance and no-show behavior
+5. Built pivot tables to analyze patterns across demographic and operational variables
+6. Designed a dashboard to summarize findings for stakeholders
 
 ## Key Metrics
 - Total Appointments
-- Completed Visits
-- Cancellation Rate
+- Total Shows
+- Total No-Shows
+- Show Rate
 - No-Show Rate
-- Production
-- Collections
-- Collection Rate
+- No-Show Rate by Gender
+- No-Show Rate by Age Group
+- No-Show Rate by SMS Reminder
+- No-Show Rate by Neighborhood
+- No-Show Rate by Weekday
 
 ## Key Findings
-- Patient volume fluctuated across reporting periods, with some days and providers showing much stronger throughput than others.
-- Collections did not always keep pace with production, suggesting opportunities to improve front-end collection processes.
-- Certain providers or locations had higher cancellation and no-show rates, which may be affecting operational efficiency.
-- A dashboard view makes it easier to identify performance gaps and prioritize action.
+- A meaningful share of scheduled appointments resulted in no-shows, creating operational inefficiencies.
+- No-show rates varied across demographic and scheduling-related variables.
+- Reminder and timing-related patterns may help explain differences in attendance behavior.
+- Dashboard reporting makes it easier to identify which groups or patterns may require targeted outreach.
 
 ## Recommendations
-- Strengthen appointment confirmation workflows to reduce no-shows
-- Monitor collection rate alongside production each reporting period
-- Review provider and location performance regularly
-- Use dashboard reporting to support staffing and scheduling decisions
+- Strengthen appointment reminder workflows for higher-risk appointment groups
+- Monitor no-show trends by neighborhood, age group, and weekday
+- Review scheduling lead times to identify whether long gaps between scheduling and appointment date increase missed visits
+- Use dashboard reporting regularly to support staffing and scheduling decisions
+- Prioritize targeted patient communication strategies to reduce missed appointments
 
 ## Dashboard Preview
 Add screenshots here once your dashboard is complete.
 
 ## Files Included
-- Healthcare_Operations_Dashboard.xlsx
+- healthcare_appointment_operations_dashboard.xlsx
 - dashboard_screenshot.png
 - README.md
 
