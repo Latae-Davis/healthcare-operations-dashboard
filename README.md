@@ -1,89 +1,93 @@
 # Healthcare Appointment Operations Dashboard
 
 ## Overview
-This project analyzes healthcare appointment data to identify patterns in patient attendance, no-shows, scheduling behavior, and operational efficiency. The goal was to create a dashboard that helps healthcare teams better understand missed appointments and use data to improve scheduling workflows.
+This Excel project analyzes healthcare appointment attendance data to identify patterns in patient no-shows, scheduling behavior, and operational performance. The dashboard was built to help translate raw appointment data into actionable insights that could support better scheduling, reminder workflows, and resource planning.
 
-## Business Problem
-Patient no-shows create operational challenges for healthcare organizations by disrupting schedules, reducing provider productivity, limiting effective capacity, and making it harder to allocate resources efficiently. This project was designed to help answer questions such as:
-- What is the overall no-show rate?
-- Are certain patient groups more likely to miss appointments?
-- Does receiving an SMS reminder appear to affect attendance?
-- Are there patterns by age, gender, neighborhood, or day of the week?
-- What operational insights can be used to improve appointment attendance?
-
-## Objectives
-- Analyze appointment attendance and no-show behavior
-- Identify trends across patient demographics and scheduling variables
-- Build a dashboard to visualize key performance indicators
-- Highlight operational patterns that may support better scheduling decisions
-- Provide recommendations to reduce missed appointments
-
-## Tools Used
-- Excel
-- Pivot Tables
-- Pivot Charts
-- Formulas
-- Tableau
+## Business Objective
+The goal of this project was to understand what factors may influence appointment attendance and missed visits. I used Excel to explore trends across patient demographics, reminder status, neighborhoods, weekdays, and appointment lead times, then translated those findings into operational recommendations.
 
 ## Dataset
-The dataset used for this project is the **Medical Appointment No Shows** dataset from Kaggle. It contains appointment-level healthcare data and includes fields such as:
-- PatientId
-- AppointmentID
+The dataset contains over 110,000 healthcare appointment records and includes fields such as:
+- Patient ID
+- Appointment ID
 - Gender
-- ScheduledDay
-- AppointmentDay
+- Scheduled date
+- Appointment date
 - Age
-- Neighbourhood
-- Scholarship
-- Hipertension
+- Neighborhood
+- Scholarship status
+- Hypertension
 - Diabetes
 - Alcoholism
-- Handcap
-- SMS_received
-- No-show
+- Handicap
+- SMS received
+- Attendance outcome
 
-Note: This dataset reflects medical appointment records and was used for portfolio analysis purposes.
+## Tools Used
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Slicers
+- KPI reporting
+- Formulas for calculated fields
+- Dashboard design and data storytelling
 
-## Process
-1. Cleaned and reviewed the raw dataset
-2. Standardized field names and formatted date columns
-3. Created new fields for analysis, including appointment lead time and weekday trends
-4. Calculated KPIs related to attendance and no-show behavior
-5. Built pivot tables to analyze patterns across demographic and operational variables
-6. Designed a dashboard to summarize findings for stakeholders
+## Project Structure
+- `Raw_Data` – original dataset
+- `Cleaned_Data` – prepared dataset with cleaned and derived fields
+- `KPI_Summary` – high-level performance metrics
+- `Pivot Tables` – supporting pivot table analysis
+- `Dashboards` – interactive visual dashboard
+- `Insights` – written findings, recommendations, and operational takeaway
 
-## Key Metrics
-- Total Appointments
-- Total Shows
-- Total No-Shows
-- Show Rate
-- No-Show Rate
-- No-Show Rate by Gender
-- No-Show Rate by Age Group
-- No-Show Rate by SMS Reminder
-- No-Show Rate by Neighborhood
-- No-Show Rate by Weekday
+## Key KPIs
+- Total Appointments: 110,527
+- Total Shows: 88,208
+- Total No-Shows: 22,319
+- Show Rate: 79.8%
+- No-Show Rate: 20.2%
+- Average Lead Time: 14.6 days
+- Percent Receiving SMS: 32.1%
 
 ## Key Findings
-- A meaningful share of scheduled appointments resulted in no-shows, creating operational inefficiencies.
-- No-show rates varied across demographic and scheduling-related variables.
-- Reminder and timing-related patterns may help explain differences in attendance behavior.
-- Dashboard reporting makes it easier to identify which groups or patterns may require targeted outreach.
+- The no-show rate represents a meaningful share of total appointments, showing a clear opportunity to improve scheduling efficiency.
+- Attendance patterns vary across patient groups, including differences by age category.
+- SMS reminder status appears to have a relationship with appointment outcomes, suggesting reminder workflows may impact attendance.
+- No-shows are not distributed evenly across all neighborhoods, with some areas contributing more heavily to missed appointment volume.
+- Appointment outcomes also vary by weekday, which may help inform scheduling and outreach decisions.
 
 ## Recommendations
-- Strengthen appointment reminder workflows for higher-risk appointment groups
-- Monitor no-show trends by neighborhood, age group, and weekday
-- Review scheduling lead times to identify whether long gaps between scheduling and appointment date increase missed visits
-- Use dashboard reporting regularly to support staffing and scheduling decisions
-- Prioritize targeted patient communication strategies to reduce missed appointments
+- Strengthen reminder workflows for appointment groups with higher no-show risk.
+- Monitor no-show trends by age group, weekday, and neighborhood on a recurring basis.
+- Review appointment lead times to determine whether longer waits contribute to missed visits.
+- Use dashboard reporting to support staffing, scheduling, and patient communication decisions.
+- Consider targeted outreach strategies for groups and locations with higher missed visit volume.
 
-## Dashboard Preview
-Add screenshots here once your dashboard is complete.
+## Operational Takeaway
+This dashboard shows that missed appointments are not random. They follow patterns that can be measured and monitored. By identifying higher-risk segments and operational pressure points, healthcare teams can make more informed decisions that improve attendance and operational efficiency.
 
-## Files Included
-- healthcare_appointment_operations_dashboard.xlsx
-- dashboard_screenshot.png
-- README.md
+## Skills Demonstrated
+- Data cleaning
+- KPI development
+- Operational analysis
+- Dashboard creation
+- Trend analysis
+- Business recommendations
+- Data storytelling
 
-## Project Status
-Completed
+## Project Preview
+
+### Dashboard Screenshot
+![Dashboard Overview](images/dashboard-overview.png)
+
+### KPI Summary Screenshot
+![KPI Summary](images/kpi-summary.png)
+
+### Pivot Table Analysis Screenshot
+![Pivot Table Analysis](images/pivot-analysis.png)
+
+### Insights Screenshot
+![Insights](images/insights.png)
+
+## Note
+Due to GitHub file size and viewing limitations, this repository includes screenshots of the workbook experience. The Excel project contains the full interactive dashboard, supporting pivot tables, KPI tracking, and written insights.
