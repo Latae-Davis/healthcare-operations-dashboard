@@ -78,7 +78,10 @@ This dashboard shows that missed appointments are not random. They follow patter
 ## Project Preview
 
 ### Dashboard Screenshot
-![Dashboard Overview](images/dashboard-overview.png)
+
+<img width="1358" height="930" alt="Screen Shot 2026-03-26 at 10 41 54 PM" src="https://github.com/user-attachments/assets/1bd24bc4-c951-4d05-856c-5ece81bca897" />
+
+
 
 ### KPI Summary Screenshot
 ![KPI Summary](images/kpi-summary.png)
