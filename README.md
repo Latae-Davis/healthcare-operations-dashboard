@@ -84,13 +84,22 @@ This dashboard shows that missed appointments are not random. They follow patter
 
 
 ### KPI Summary Screenshot
-![KPI Summary](images/kpi-summary.png)
+
+<img width="1263" height="1143" alt="Screen Shot 2026-03-26 at 10 43 34 PM" src="https://github.com/user-attachments/assets/a5c32a56-0428-45d3-88cb-a8876f8599c9" />
+
+
 
 ### Pivot Table Analysis Screenshot
-![Pivot Table Analysis](images/pivot-analysis.png)
+
+<img width="1279" height="1936" alt="Screen Shot 2026-03-26 at 10 45 07 PM" src="https://github.com/user-attachments/assets/8a267d99-69f9-4176-9f30-93d0c1e1ec48" />
+
+
 
 ### Insights Screenshot
-![Insights](images/insights.png)
+
+<img width="1962" height="1555" alt="Screen Shot 2026-03-26 at 10 46 02 PM" src="https://github.com/user-attachments/assets/7a8b781c-776b-4c21-a70e-03c8b0438c78" />
+
+
 
 ## Note
 Due to GitHub file size and viewing limitations, this repository includes screenshots of the workbook experience. The Excel project contains the full interactive dashboard, supporting pivot tables, KPI tracking, and written insights.
